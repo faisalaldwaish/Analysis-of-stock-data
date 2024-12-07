@@ -7,7 +7,7 @@ This project analyzes stock market data over a five-year period to provide insig
 ### 1. **Dataset Summary**
 Using Pandas, we loaded the dataset and performed an initial exploration. Below are some highlights:
 
-- **Total Records**: 5,040,000 rows.
+- **Total Records**: 619040rows.
 - **Total Stocks**: 505 unique stock symbols.
 - **Time Range**: The dataset covers a period of 5 years.
 - **Key Columns**:
@@ -19,14 +19,14 @@ Using Pandas, we loaded the dataset and performed an initial exploration. Below 
 ### 2. **Descriptive Statistics**
 The dataset was summarized to provide insights into the general distribution of prices and volumes:
 - **Highest Price (`high`)**:
-  - Mean: 132.5
-  - Max: 1,032.4
+  - Mean: 83.778
+  - Max: 2067.99
 - **Lowest Price (`low`)**:
-  - Mean: 126.7
-  - Min: 5.25
+  - Mean: 82.256
+  - Min:  1.5
 - **Volume**:
-  - Mean: 2,345,678
-  - Max: 128,345,890
+  - Mean:4321823.39
+  - Max: 618237630
 
 ### 3. **Data Cleaning and Filtering**
 - **Handling Missing Values**: Missing values were identified and filled using the forward fill method for time-series consistency.
